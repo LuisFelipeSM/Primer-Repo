@@ -1,0 +1,30 @@
+*{
+    margin:  0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#content-box{
+    width:  200px;
+    height: 200px;
+    background-color: orange;
+    box-sizing: content-box;
+    padding: 10px;
+    border: 5px solid black;
+}
+.absolute{
+    background-color: yellow;
+    position: absolute;
+
+}
+.fixed{
+    background-color: green;
+    width: 100px;
+    height: 50px;
+    position: fixed;
+}
+.display{
+    width: 100px;
+    background-color: gray;
+    display: inline;
+
+}

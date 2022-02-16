@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+justify-content: space-around;
+align-items: center;
+background-color: rgb(55, 56, 44);
+}
+
+.logo{
+    margin-left: 50px;
+    height: 80px;
+}
+nav{
+    width: 500px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+nav ul li{
+
+    list-style: none;
+    font-weight: bold;
+    color: wheat;
+}
+.banner{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+.izquierdo{
+    width: 50%;
+}
+.derecho img{
+    width: 50%;
+
+}
+
+.albumes{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.albumes .caja{
+    width: 80%;
+}
+.caja{
+    background-color: blueviolet;
+    width: 200px;
+}
+.albumes .caja img{
+    width: 80%;
+}

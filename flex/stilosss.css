@@ -1,0 +1,10 @@
+.hijo{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+.padre{
+    display: flex;
+    
+    background-color: red;
+}
